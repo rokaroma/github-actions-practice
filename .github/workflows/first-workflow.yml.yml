@@ -1,0 +1,11 @@
+
+name: Roka
+
+on: [push]
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print greeting
+        run: echo "Hello ROKA!"
